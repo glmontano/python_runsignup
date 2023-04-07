@@ -85,6 +85,7 @@ class RunSignUpAPI:
 		res = json.loads(res.text)
 		print(json.dumps(res, indent=JSON_INDENT_NUM))
 
+		
 foo = RunSignUpAPI()
 foo.get_user_information()
 
